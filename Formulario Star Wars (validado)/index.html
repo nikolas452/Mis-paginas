@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Ionicons -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- style -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google fonts -->
+    <title>Star Wars</title>
+  </head>
+  <!-- -------------------------------------------------------------------------------------------------------- -->
+  <body>
+    <section class="p-5">
+      <div class="row no-gutters bg-dark ">
+        <div class="col-xl-5 col-lg-12 p-0">
+          <div class="position-relative img-izq">
+            <div class="position-absolute h3-p">
+              <h3 class="font-weight-bold text-light mb-2 p-0">La siguiente revolución digital.</h3>
+              <p class="lead text-light mt-0 p-0">La nueva etapa de la revolucion digital se aproxima</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-12 bg-dark  p-0">
+          <div class="container my-6">
+            
+            <h1 class="font-weight-bold mb-3">Crea tu cuenta gratis</h1>
+            <div class="form-group">
+              <button class="btn text-light btn-outline-dark goog badge-pill"><i class="icon ion-logo-google mr-1"></i> Google</button>
+              <button class="btn text-light btn-outline-dark face badge-pill"><i class="icon ion-logo-facebook mr-1"></i> Facebook</button>
+            </div>
+            <p class="text-muted mb-5">Ingresa la siguiente informacion para registrarte:</p>
+            
+            <form class="bg-dark" onsubmit="return validate()">
+              
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputName">Nombre <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="inputName" placeholder="Tu nombre">
+                </div>
+                
+                <div class="form-group col-md-6">
+                  <label for="inputApellido">Apellido <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="inputApellido" placeholder="Tu apellido">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="inputEmail4">Correo electronico <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Ingresa tu correo electronico">
+              </div>
+              <div class="form-group">
+                <label for="inputPassword4">Contraseña <span class="text-danger">*</span></label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Ingresa una contraseña">
+              </div>
+              
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label text-muted" for="gridCheck">Al seleccionar esta casilla aceptas nuestro aviso de privacidad y los términos y condiciones </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary badge-pill mt-3 mb-5 regis">Registrate</button>
+            </form>
+            <small class="text-muted">Todos los derechos reservados | © 2019 Nicolás Nitri</small>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="scipt.js"></script>
+  </body>
+</html>

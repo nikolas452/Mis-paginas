@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplos en Jquery</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <!-- Styles -->
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+    <div class="container border border-dark my-4">
+      <h2>Ejemplos a mostrar:</h2>
+      <ol id="lista">
+        <li>Pagina Principal: Alineacion del texto</li>
+        <li>Informacion: Cambiar tamaño del texto</li>
+        <li>Formulario: Aparicion y Desaparicion de inputs</li>
+      </ol>
+      <div class="mb-3 ml-4">
+        <div class="form-check form-check-inline mx-0">
+          <label class="form-check-label" for="left">Left</label>
+          <input class="form-check-input ml-1" type="radio" name="align" id="left" value="left">
+        </div>
+        <div class="form-check form-check-inline mx-0">
+          <label class="form-check-label" for="center">Center</label>
+          <input class="form-check-input ml-1" type="radio" name="align" id="center" value="center">
+        </div>
+        <div class="form-check form-check-inline mx-0">
+          <label class="form-check-label" for="right">Right</label>
+          <input class="form-check-input ml-1" type="radio" name="align" id="right" value="right">
+        </div>
+        
+        <button class="ml-3 btn btn-success" id="boton">Cambia alineacion</button>
+        <span class="text-danger ml-3" style="display: none;">Selecciona una alineacion</span>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="container border border-dark">
+      <div id="fuente">
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil necessitatibus recusandae, repudiandae quasi minima tempora accusamus accusantium dolorem iure provident. Provident, aut odio fuga sit repellat commodi? Dolores velit quaerat, impedit sunt ratione adipisci nam! Voluptates quod sapiente eveniet maxime quo nostrum, veniam! Eius, illo atque, similique voluptatem dicta dolores, optio voluptatum consectetur amet, quisquam modi laborum nam necessitatibus placeat. Incidunt eaque consequuntur totam quaerat maiores placeat porro vitae ipsum fuga impedit eum doloribus possimus laudantium quo magni doloremque tempore veniam veritatis unde quae voluptates culpa, aliquid necessitatibus dignissimos! Explicabo repudiandae at culpa deserunt porro. Ad laudantium pariatur accusantium aspernatur.</p>
+        <ol>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+          <li>Blanditiis ea quisquam adipisci officia, id veritatis ut.</li>
+          <li>Quos nostrum deleniti, placeat corporis, blanditiis quam libero!</li>
+          <li>Odio iusto perferendis, eligendi. Facilis sunt cum sint.</li>
+          <li>Libero dolore atque, officia blanditiis odio illum veritatis.</li>
+          <li>Voluptatum sint placeat praesentium accusamus dignissimos, doloremque velit.</li>
+        </ol>
+      </div>
+      <div class="form-group col-md-4">
+        <select id="letra" class="form-control">
+          <option value="p">Pequeña</option>
+          <option value="n" selected>Normal</option>
+          <option value="g">Grande</option>
+        </select>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="container border border-dark my-4">
+      <form>
+        <div class="form-group row mt-3">
+          <label for="usuario" class="col-sm-2 col-form-label">Usuario</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="usuario">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="pass" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="pass" name="pass" placeholder="Ingresa una contraseña">
+          </div>
+        </div>
+        <!-- Confirm Password -->
+        <div class="form-group row" id="conpass" style="display: none;">
+          <label for="pass2" class="col-sm-2 col-form-label">Confirm Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="pass2">
+          </div>
+        </div>
+        <!-- ------------------ -->
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">Estado Civil</legend>
+            <div class="col-sm-10">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="estado" id="casado" value="casado">
+                <label class="form-check-label" for="casado">
+                  Casado
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="estado" id="soltero" value="soltero">
+                <label class="form-check-label" for="soltero">
+                  Soltero
+                </label>
+              </div>
+              <div class="form-check form-check-inline ">
+                <input class="form-check-input" type="radio" name="estado" id="otro" value="otro">
+                <label class="form-check-label" for="otro">
+                  Otro (con comentarios)
+                </label>
+              </div>
+              <div class="form-group" id="comentarios" style="display: none;">
+                <label for="area">Comentarios: </label>
+                <textarea class="form-control" id="area" rows="3"></textarea>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="container my-4 border border-dark">
+      <h2>Texto de relleno para tener scroll</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum laboriosam, inventore distinctio fugit, quos praesentium, expedita temporibus amet cumque impedit? Facere voluptas ea, dolorum ducimus, amet cupiditate voluptatem ex fugiat voluptate, quaerat ab suscipit doloribus maiores veniam nam. Commodi similique quis expedita molestiae, distinctio tenetur sequi quod adipisci minima, aspernatur quisquam. Necessitatibus, excepturi. Accusantium sapiente laboriosam voluptates tempore vero atque error, architecto veritatis. Ad qui vero possimus hic porro inventore omnis impedit laudantium consequatur repellendus facilis dignissimos fugit ex corporis commodi ea doloremque dolor magni rem, libero repellat consectetur placeat accusamus. Perferendis voluptate iusto, ullam corporis repudiandae illum eos!</p>
+    </div>
+
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

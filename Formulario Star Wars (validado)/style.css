@@ -1,0 +1,50 @@
+:root {
+    --color-dark: #15181f;
+    --color-dark-x: #2d343f;
+    --color-dark-xx: #1f232b;
+    --color-light: #ffffff;
+    --color-grey: #f5f6f8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-grey);
+    color: var(--color-light);
+    letter-spacing: .05rem;
+}
+/*==========================================
+=            Colores y margenes            =
+==========================================*/
+.bg-light {background-color: var(--color-light)!important;}
+.bg-dark {background-color: var(--color-dark)!important;}
+
+.p-6 {padding: 4rem 7rem;}
+.my-6 {margin: 60px 0;}
+/*=====  End of Colores y margenes  ======*/
+
+
+.container {padding:64px 112px;}
+.goog , .face {height: 66px;padding: 16px 32px;margin: 0 8px 16px 0;}
+
+.form-control {
+    background-color: var(--color-dark-xx);
+    border: 2px solid var(--color-dark-xx);
+    border-radius: .2rem;
+    padding: 1.5rem 1rem;
+}
+.regis {padding: 16px 32px;}
+
+.h3-p {
+    bottom: 3%;
+    left: 3%;
+}
+.img-izq {
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 115vh;
+    position: relative;
+}
+.form-control {height: 76px; ;padding: : 24px 16px;}
