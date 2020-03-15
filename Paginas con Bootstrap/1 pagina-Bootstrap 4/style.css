@@ -1,0 +1,238 @@
+		/* Cuerpo , titulos y parrafo */
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+h1 {font-size:66px;font-weight:600;line-height:80px;}
+h2 {font-size:48px;margin-bottom:30px;}
+h5 {margin-bottom:0;}
+p {font-size:18px;color:#999999;margin-bottom:0;}
+/* -----------------------------------------------------------------------------		 */
+		/* Links */
+a:hover{text-decoration:none;}
+a i {
+	font-size: 22px;
+	color:white;
+}
+/* -----------------------------------------------------------------------------		 */
+		/* Margenes */
+.topmargin-xs{margin-top:15px;}
+.topmargin-sm{margin-top:30px;}
+.topmargin-lg{margin-top:60px;}
+/* -----------------------------------------------------------------------------		 */
+/* -----------------------------------------------------------------------------		 */
+		/* Botones */
+.btn{
+	font-size:14px;
+	padding:15px 26px;
+	min-width:160px;
+	border-radius: 2px;
+	display:inline-block;
+}
+.btn-transparent {
+	background-color:transparent;
+	color:white;
+	border: 2px solid white;
+}
+.btn-light {
+	/* padding:15px 26px; */
+	background-color: #ffffff;
+	color: #1a1a1a;
+	border:2px solid #ffffff;
+}
+.btn i {font-size:14px;margin-left:5px;}
+.btn-dark{
+	/* padding:15px 26px; */
+	background-color:black;
+	color:white;
+	border:2px solid black;
+}
+/* -----------------------------------------------------------------------------		 */
+				/* Barra de arriba de todo incluye logo y links (responsive) */
+
+.navbar {
+	background-color:white;
+	 box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+	min-height:100px;
+	padding:8px 16px;
+}
+		/* links  */
+.nav-link {color: #1a1a1a;}
+.nav-link:hover {color:black;}
+			/* Logo strong */
+.logo-brand {
+	min-width:160px;
+	min-height:180px;
+}
+		/* El icono de menu q aparece cuando se achica la pantalla */
+.navbar-toggler {font-size: 40px;}
+.navbar-toggler:focus {outline:none;}
+
+/* -----------------------------------------------------------------------------		 */
+		/* Color del parrafo del centro , imagen de fondo y dimensiones de la imagen */
+#hero p {color:white;}
+#hero {
+	background-image: url("images/hero.jpg");
+	background-size:cover;
+	padding-top:90px;
+	min-height:500px;
+	color: #ffffff;
+}
+/* -----------------------------------------------------------------------------		 */
+		/* Contenido del centro (titulo y parrafo) */
+.content-center {
+	max-width: 800px;
+	margin: 0 auto 60px auto;
+	text-align:center;
+}
+/* -----------------------------------------------------------------------------		 */
+			/* Portafolio */
+section {padding:120px 0;}
+.portafolio-container {
+	position:relative;   /*Para poner algo encima de algo es necesario q lo */
+	overflow:hidden;		/*q va a ir de fondo tenga una posicion:relative*/
+	margin:10px 0;			/*y lo q va encima tega una posicion:absolute*/
+	border-radius: 2px;
+}
+.portafolio-details {
+	position:absolute;
+	bottom:25px;
+	left:25px;
+	z-index:9000;
+}
+.portafolio-details a h2,.portafolio-details a p {color:white;}
+.portafolio-details a h2{margin-bottom:0px;}
+.portafolio-container img {transition: all 0.8s;}
+.portafolio-container:hover img {transform: scale(1.2);}
+/* -----------------------------------------------------------------------------		 */
+				/* Las dos lineas de texto abajo del portafolio */
+.text-dark{colo:black;}
+/* -----------------------------------------------------------------------------		 */
+				/* About Us */
+.bg-light-grey{background-color:#f5f5f5;}
+			/* Imagenes del about us */
+.member-container{
+	position:relative;
+	margin: 100px 0;
+}
+.member-details{
+	position:absolute;
+	color:white;
+	bottom:0;
+	left:20px;
+}
+.memeber-details span{font-size:14px;}
+.memeber-details i{padding:0 5px;}
+/* -----------------------------------------------------------------------------		 */
+				/* Pricing */
+.pricing-container{margin: 15px 0;}
+.plans h2 span {font-size:20px;}
+.plans{
+	padding:50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+.plans-light{background-color:white;border:2px solid black;}
+.plans-black{background-color:black;color:white;border:2px solid black;}
+.full-width {width:100%;}
+.plans h2 {
+	font-size:70px;
+	font-weight:600;
+}
+.plans span {font-size:20px;}
+.plans ul { list-style-type:square;}
+/* -----------------------------------------------------------------------------		 */
+				/* Testimonios el carousel */
+.carousel {
+	min-height:240px;
+	padding:40px;
+	border-radius: 2px;
+	text-align:center;
+}
+.carousel p{
+	font-size:26px;
+	font-weight:400;
+	color:#1a1a1a;
+}
+.rating i {
+	color:#ffb944;
+	font-size:26px;
+}
+.carousel-indicators li {
+	background-color: black;
+	width: 15px;
+	height:15px;
+	border-radius: 2px;
+}
+.carousel-contro-next, .carousel-control-prev{
+	color:white;
+	opacity:1;
+	width: 5%;
+}
+.carousel-button {
+	background-color: #1a1a1a;
+	opacity:1;
+	width:50px;
+	height:50px;
+	padding:10px;
+	border: 1px solid black;
+	border-radius: 50px; 		/* es para q le de un borde circular... es decir tenga como borde a un circulo*/
+	font-size:20px;
+}
+.carousel-container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+		/* testimonials user */
+.testimonials-user {
+	max-width: 240px;
+	margin: 0 auto;
+	text-align:left;
+}
+.testimonials-user h6 {margin-bottom:0;}
+.testimonials-user span {font-size:12px;}
+.testimonials-user img {
+	border-radius:50%;
+	max-width:50px;
+	text-align: center;
+}
+/* -----------------------------------------------------------------------------		 */
+				/* Linea para divider las secciones en la pagina */
+.divider {border-bottom: 2px solid #F5F5F5;}
+
+
+			/*Formulario*/
+.formu h3 {font-size: 33px;}
+.form-control {
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 25px;
+    border-radius: 2px;
+}
+
+.ultima li {padding: 10px 10px;}
+.ultimaa li {padding: 10px 15px;}
+
+
+
+/* -----------------------------------------------------------------------------		 */
+			/* Queries */
+
+@media (max-width: 575.98px) { 
+	h1 {font-size:40px;line-height:normal;}
+	.portafolio-details h2{font-size:32px;}
+	.plans { min-width:unset; padding: 40px;}
+	.carousel-item p {font-size: 20px;}
+ }
+
+
+/* @media (max-width: 767.98px) { ... } */
+
+
+@media (max-width: 991.98px) { 
+	.portafolio-details h2 {font-size:30px;}
+	.plans { min-width:unset; padding:40px 20px;}
+ }
+
+
+/* @media (max-width: 1199.98px) { ... } */
+

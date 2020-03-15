@@ -1,0 +1,144 @@
+body {
+	background-color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300 !important;
+	color:white;
+}
+.bg-nav {background-color:#000000;}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+p {font-size: 20px;}
+
+a {color: #ffffff;}
+
+a:hover {
+    color: #ffffff;
+    opacity: .8;
+    text-decoration: none;
+}
+
+.mt-6 {margin-top: 60px;}
+.mt-30 {margin-top: 30px;}
+.mx-105 {margin: 0 105px;}
+.mb-6 {margin-bottom: 55px;}
+
+				/*Encabezado con logo y navbar*/
+.logo-p {
+    max-width: 180px;
+    min-width: 180px;
+}
+					/*Padding de todas las secciones*/
+.portfolio ,#hero, .cards3,.contact-us{padding: 100px 0;}
+
+			/*Seccion hero*/
+.titulo {font-size: 60px;line-height: 1.6;margin: 0 auto;width: 80%;}
+
+.img-texto {transition: all .2s ease-in-out;}
+.img-texto:hover{transform: scale(1.03);}
+.see {padding: 15px 30px;}
+
+.parrafo {
+	left:30px;
+	top:30px;
+	z-index: 100;
+	max-width: 600px;
+}
+.parrafo h3 {font-size: 36px;}
+.boton {
+	left:30px;
+	bottom: 30px;
+	z-index: 100;
+}
+
+	/*Seccion portfolio*/
+.estupido-parrafo {margin: 30px 0 16px;font-size: 20px;}
+
+/*Seccion de las 3 cards*/
+.titu-parr {max-width: 900px;}
+.titu-parr h2 { 
+	   	line-height: 1.8;
+    	letter-spacing: .02em;
+}
+.card {border: 1px solid white;}
+.card:hover {border: 2px solid white;}
+.card-body {
+	padding: 40px;
+	margin: 10px 0;
+	height: 435px;
+}
+.card-body h4 {margin-bottom: 60px;}
+.card-body p {font-size: 16px;margin-bottom: 40px;}
+.card-body span {margin: 0 0 25px;padding: 4px 15px;}
+.read {bottom: 30px;}
+
+		/*Seccion contact us*/
+.contact {margin-top: 20px;padding: 15px 40px;}
+			/*Footer*/
+footer {padding: 90px 0 30px 0;}			
+footer .copyright {margin: 30px 0 0 0;letter-spacing: .25em;}
+footer h6 {font-size: 24px;}
+footer .redes {margin:30px 0 16px 0;font-size: 26px;}
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+				/*JQueries*/
+@media screen and (max-width: 575.98px){
+ #hero	h1 {font-size: 30px;text-align:start; }
+   .portfolio,.cards3,#hero,.contact-us { padding: 70px 10px; }
+  .estupido-text {width: 100%;margin: 0 0 !important;}
+  .estupido-text h2{font-size: 22px;}
+  .estupido-parrafo p {font-size: 20px;}
+
+  .no-cel {display: none;}
+  .mobile-only {display: inline-block;text-align:left;}
+  .mobile-only h3 {
+        font-size: 22px;
+        margin-top: 5px;
+    }
+    .mobile-only p {font-size: 20px;}
+
+    .en-cel {padding-bottom: 30px;}
+    .titu-parr h2 {font-size: 22px;}
+    .cel-padding {padding-bottom: 15px;}
+    .card {border: 1px solid white;height: 340px;}
+
+}
+/*------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	 #hero	h1 {font-size: 30px;text-align:start; }
+   .portfolio,.cards3,#hero,.contact-us { padding: 70px 10px; }
+  .estupido-text {width: 100%;margin: 0 0 !important;}
+  .estupido-text h2{font-size: 22px;}
+  .estupido-parrafo p {font-size: 20px;}
+
+  .no-cel {display: none;}
+  .mobile-only {display: inline-block;text-align:left;}
+  .mobile-only h3 {
+        font-size: 22px;
+        margin-top: 5px;
+    }
+    .mobile-only p {font-size: 20px;}
+
+    .en-cel {padding-bottom: 30px;}
+    .titu-parr h2 {font-size: 22px;}
+    .cel-padding {padding-bottom: 15px;}
+    .card {border: 1px solid white;height: 340px;}
+    .parrafo h3 {font-size: 22px;}
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+	 #hero	h1 {font-size: 30px;text-align:start; }
+	.mobile-only {display: none;}
+	.portfolio,.cards3,#hero,.contact-us { padding: 70px 10px; }
+	.parrafo h3 {font-size: 22px;}
+	.card {height: 360px;}
+	.card-body {padding: 10px;}
+	.card-body span {font-size: 13px;margin-bottom: 20px;}
+	.card-body h4{font-size: 17px;margin-bottom: 30px;}
+	.card-body p{font-size: 15px;margin-bottom: 20px;}
+	.read {left:35px;}
+}
+@media screen and (min-width: 991px) {
+	.mobile-only {display: none;}
+}
