@@ -1,0 +1,132 @@
+			/* General */
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #291701;
+	overflow-x: hidden;
+    }
+
+a {
+	color: #291701;
+	font-weight: bold;
+  }	
+			
+/* --------------------------------------------------------------------------- */
+			/* HEADER */
+header {
+	background-color: #2a1000;
+}
+/* --------------------------------------------------------------------------- */
+.social-header {
+	font-size:30px;
+	text-align:right;
+	margin-top: 12px;
+	}	/*Todos los iconos */
+
+.social-header a {color: white;}   /*Links */
+	
+.social-header a .fa {color: #2a1000;}	/*Iconos*/
+/* --------------------------------------------------------------------------- */
+				/* Menu y lista de menu del HEADER */
+.menu-bar {
+	background-color: #ffbc01;
+	margin-top: 20px;
+	}
+.menu-bar a {
+		color: #2a1000;
+		font-size: 16px;
+		font-weight: 500;
+		}
+	
+.menu-bar a:hover {
+		text-decoration: none;
+		color: #fff;
+		}
+.menu-list li{padding:0 10px}
+.menu-list {
+	padding: 12px 0;
+	margin-bottom: 0;
+	text-align:right;
+}
+/* --------------------------------------------------------------------------- */
+				/* CAROUSEL */
+.carousel {margin-bottom: 50px;}
+.carousel-caption {
+	background-color: rgba(41, 23, 1, 0.75);
+	height: 100%;
+    left: 0;
+    top: 0;
+    padding: 30px 45px;
+    text-align: left;
+    width: 340px
+	}
+.carousel-caption p {
+    font-size: 14px;
+    line-height: 18px;
+}
+.carousel-caption .h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+.carousel-caption h2 {
+    font-size: 26px;
+    line-height: 30px;
+}
+.carousel-caption a {
+    border-radius:0;
+	font-weight:bold;
+	color: #291701;
+	border:none;
+}
+.carousel-caption img {
+	display:block;
+	max-width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+/* --------------------------------------------------------------------------- */
+					/* Seccion del texto y el mapa */
+ h3 {
+	font-size: 24px;
+	border-bottom: 1px solid #9e9e9e;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+ h3 i {color: #929292;}
+p {font-size: 16px;}
+
+/* --------------------------------------------------------------------------- */
+							/* Helpers */
+.mt-80 {margin-top:80px;}
+/* --------------------------------------------------------------------------- */
+							/* Ultima zona */
+.ultima-zona{
+	padding-top:20px;
+	background-color:#e0e0e0;
+}
+.ultima-zona p {font-size: 16px;}
+.ultima-zona h4 {
+    font-size: 20px;
+    border-bottom: 1px solid #9e9e9e;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.ultima-zona a {
+    margin-bottom: 18px;
+    display: block;
+}
+.ultima-zona a:hover {color: #000;}
+/* --------------------------------------------------------------------------- */
+					/* La sombara desde el carousel hasta antes del footer */
+.main > .container {box-shadow: 0 7px 18px rgba(0, 0, 0, 0.5);}
+/* --------------------------------------------------------------------------- */
+						/* Footer */
+.lista-del-pie a:hover{text-decoration:none;color:white;}
+.lista-del-pie {
+	text-align:right;
+	margin-top:5px;
+    font-size: 12px;
+	}
+footer {background-color: #f6b92a;}
+footer p {font-size:12px;}

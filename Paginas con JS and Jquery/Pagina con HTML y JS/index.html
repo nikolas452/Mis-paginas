@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- Font awesome -->
+		<script src="https://kit.fontawesome.com/b306e589dd.js" crossorigin="anonymous"></script>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<title>Document</title>
+	</head>
+	<body class="hidden">
+		<!-- Preload -->
+		<!-- <div class="centrado" id="onload"><div class="lds-facebook"><div></div><div></div><div></div></div></div> -->
+		<header class="mt-0">
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="barra">
+					<div class="container">
+						<img src="img/logo-mi.png" alt="logo" id="logo-j" class="img-fluid">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item"><a class="nav-link text-light"  href="#">Home</a></li>
+								<li class="nav-item"><a class="nav-link text-light"  href="#equipo">Equipo</a></li>
+								<li class="nav-item"><a class="nav-link text-light"  href="#servicios">Servicios</a></li>
+								<li class="nav-item"><a class="nav-link text-light"  href="#trabajo">Trabajo</a></li>
+								<li class="nav-item"><a class="nav-link text-light"  href="#contacto">Contacto</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="mi-nombre text-center position-absolute ">
+				<h1 class="text-light font-weight-bold">Nicolás Nitri</h1>
+				<h2 class="text-light">Desarrollo Web</h2>
+			</div>
+		</header>
+		<!-- ------------------------------------------------------------------------------------------------- -->
+		<section class="equipo p-60" id="equipo">
+			<div class="container">
+				<h3 class="text-center gold">Nuestro equipo</h3>
+				<p class="text-center mb-0 gold">Conoce a la gente asombrosa y creativa</p>
+				<hr>
+				<div class="row mt-5">
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/people1.jpg" alt="persona1" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center font-weight-bold">Nombre y Apellido</h4>
+								<p class="text-center gold">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/people2.jpg" alt="persona1" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center font-weight-bold">Nombre y Apellido</h4>
+								<p class="text-center gold">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/people3.jpg" alt="persona1" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center font-weight-bold">Nombre y Apellido</h4>
+								<p class="text-center gold">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ------------------------------------------------------------------------------------------------- -->
+		<section class="servicios p-60" id="servicios">
+			<div class="container">
+				<h3 class="text-center gold font-weight-bold">Nuestros servicios</h3>
+				<p class="text-center mb-0 gold">Siempre mejorando para ti</p>
+				<hr>
+				<div class="row p-4">
+					<div class="col-md-4 text-center">
+						<img src="img/heart.png" alt="corazon">
+						<div class="descrip-text">
+							<h4 class="text-light font-weight-bold">Creativos y asombrosos</h4>
+							<p class="gold">Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<img src="img/responsive.png" alt="pc">
+						<div class="descrip-text">
+							<h4 class="text-light font-weight-bold">Creativos y asombrosos</h4>
+							<p class="gold">Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<img src="img/efectos.png" alt="">
+						<div class="descrip-text">
+							<h4 class="text-light font-weight-bold">Creativos y asombrosos</h4>
+							<p class="gold">Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- -------------------------------------------------------------------------------------------- -->
+		<section class="trabajo p-60" id="trabajo">
+			<div class="container">
+				<h3 class="text-center gold font-weight-bold">Nuestro trabajo</h3>
+				<p class="text-center gold">Hacemos de algo simple algo extraordinario</p>
+				<hr>
+				<div class="botones text-center my-4">
+				<button type="button" id="todos" class="btn ml-2 gold " id="todos">Todos</button>
+				<button type="button" id="programacion" class="btn ml-2 gold">Programacion</button>
+				<button type="button" id="diseño" class="btn ml-2 gold ">Diseño</button>
+				<button type="button" id="marketing" class="btn ml-2 gold">Marketing</button>
+				</div>
+				<div class="row mb-5" id="prog">
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/programacion1.jpeg" alt="persona1" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center">Programacion</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/programacion2.jpeg" alt="persona1" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center">Programacion</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/programacion3.jpeg" alt="persona1" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center">Programacion</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-5" id="dis">
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/diseño1.jpeg" alt="diseño1" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center">Diseño</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/diseño2.jpeg" alt="diseño2" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center">Diseño</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/diseño3.jpeg" alt="diseño3" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center">Diseño</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="mark">
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/marketing1.jpeg" alt="marketing1" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center">Marketing</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/marketing2.jpeg" alt="marketing2" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center">Marketing</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="foto">
+								<img src="img/marketing3.jpeg" alt="marketing3" class="img-fluid foto-persona">
+							</div>
+							<div class="descripccion p-2">
+								<h4 class="text-center">Marketing</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- --------------------------------------------------------------------------------------------- -->
+		<footer class="p-60 text-center bg-dark" id="contacto">
+			<img src="img/mi-logo.png" alt="logo" class="img-fluid img-footer mb-5">
+			<div class="row mb-3">
+				<div class="col-md-4 text-right pr-5"><i class="fab fa-youtube text-light"></i></div>
+				<div class="col-md-4 text-center"><i class="fab fa-facebook text-light"></i></div>
+				<div class="col-md-4 text-left pl-5"><i class="fab fa-github text-light"></i></div>
+			</div>
+			<p class="text-center gold">La pasion e innovacion es lo que nos distingue del resto</p>
+			
+			
+			
+		</footer>
+		<script src="java.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+</html>
